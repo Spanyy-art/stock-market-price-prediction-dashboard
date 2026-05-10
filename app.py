@@ -231,5 +231,6 @@ def update_graph(stock, year):
     return fig, f"Model Confidence: {accuracy:.2f}%", f"Current Price: ${current_price:.2f}"
 
 # Run App
+server = app.server
 if __name__ == "__main__":
     app.run(debug=True)
